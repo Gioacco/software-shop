@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Support</title>
+</head>
+<body>
+    <nav >
+
+        <div class="pages-list-container">
+            <ul class="pages">
+                <li>
+                    <a href="./products.html">Products</a>
+                </li>
+
+                <li>
+                    <a href="./support.html">Support</a>
+                </li>
+
+                <li>
+                    <a href="./order.html">Order</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <a href="./index.html">
+                <img src="./leonlatorre.png" alt="nfamon" width="100px">
+            </a>
+        </div>
+
+
+    </nav>
+    <form action="boh">
+        <fieldset>
+            <legend>
+                Support
+            </legend>
+
+
+            <label for="name" class="generic-input"> Name
+                <input type="text" name="name" id="name">
+            </label>
+
+            <label for="surname" class="generic-input"> Surname
+                <input type="text" name="surname" id="surname">
+            </label>
+
+
+            <label for="email" class="generic-input">Email
+                <input type="email" name="email" id="email">
+            </label>
+
+            <label for="number" class="generic-input">Phone Number
+                <input type="tel" name="number" id="number">
+            </label>
+
+            <label for="description" class="generic-input">Description
+                <textarea name="description" id="description"  cols="30" rows="10" placeholder="Describe your problem here"></textarea>
+            </label>
+
+            <div >
+                <label for="first-option">Send response via email
+                    <input type="checkbox" name="first-option" id="first-option">
+                </label>
+
+                <label for="second-option" >Send response via sms
+                    <input type="checkbox" name="second-option" id="second-option">
+                </label>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
